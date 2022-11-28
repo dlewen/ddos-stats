@@ -1,0 +1,3 @@
+*.ini
+!config.example.ini
+*.sql
