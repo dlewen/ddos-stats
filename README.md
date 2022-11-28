@@ -11,8 +11,8 @@ Add API key in cli, replace USERNAME with the user created above (or an already 
 / services aaa local apitoken generate USERNAME "DESCRIPTION"
 ```
 
-- Edit config.ini
-- Update the sightline URL
+- Copy config.example.ini to config.ini and edit
+- Update the sightline URL 
 - Add the apitoken from above
 - Specify the CA cert file (or if you really can't, set ca_verify to False, NOT RECOMMENDED)
 
